@@ -1,0 +1,6 @@
+BASE_URL: http://beta.charmm-gui.org/
+USER: testing
+PASS: lammps
+
+#WWW_DIR: /Users/hanzhang/Desktop/auto_cgui-master/data/www
+

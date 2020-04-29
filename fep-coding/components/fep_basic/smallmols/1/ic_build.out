@@ -1,0 +1,628 @@
+1
+                 Chemistry at HARvard Macromolecular Mechanics
+           (CHARMM) - Developmental Version 43b1     August 15, 2018            
+       Copyright(c) 1984-2014  President and Fellows of Harvard College
+                              All Rights Reserved
+  Current operating system: Linux-3.10.0-957.27.2.el7.x86_64(x86_64)@cgdev.cc   
+                 Created on 10/31/19 at 21:14:33 by user: apache      
+
+            Maximum number of ATOMS:    360720, and RESidues:      120240
+ RDTITL> * IC BUILD
+ RDTITL> *
+  
+ CHARMM>     
+  
+ CHARMM>    BOMLEV -2
+  
+ CHARMM>     
+  
+ CHARMM>    open read card unit 10 name ../../../toppar/top_all36_cgenff.rtf
+ VOPEN> Attempting to open::../../../toppar/top_all36_cgenff.rtf::
+ OPNLGU> Unit 10 opened for READONLY access to /home/charmm-gui/data/www/157255616647/lig_prep/smallmols/1/../../../toppar/top_all36_cgenff.rtf
+  
+ CHARMM>    read  rtf card unit 10
+ MAINIO> Residue topology file being read from unit  10.
+ TITLE> *  --------------------------------------------------------------------------  *
+ TITLE> *          CGENFF: TOPOLOGY FOR THE CHARMM GENERAL FORCE FIELD V. 4.3          *
+ TITLE> *                    FOR SMALL MOLECULE DRUG DESIGN                            *
+ TITLE> *  --------------------------------------------------------------------------  *
+ TITLE> *
+
+ DRUDES PARTICLES WILL BE GENERATED AUTOMATICALLY FOR ALL ATOMS WITH NON-ZERO ALPHA
+ Thole-type dipole screening, Slater-Delta shape {S(u) = 1 - (1+u/2)*exp(-u)}, default radius =  1.300000
+ WARNING from DECODF -- Zero length string being converted to 0.
+  
+ CHARMM>     
+  
+ CHARMM>    open read card unit 10 name ../../../toppar/par_all36_cgenff.prm
+ OPNLGU> Unit already open. The old file will be closed first.
+ VCLOSE: Closing unit   10 with status "KEEP"
+ VOPEN> Attempting to open::../../../toppar/par_all36_cgenff.prm::
+ OPNLGU> Unit 10 opened for READONLY access to /home/charmm-gui/data/www/157255616647/lig_prep/smallmols/1/../../../toppar/par_all36_cgenff.prm
+  
+ CHARMM>    read para card unit 10
+
+          PARAMETER FILE BEING READ FROM UNIT 10
+ TITLE> *  --------------------------------------------------------------------------  *
+ TITLE> *         CGENFF: PARAMETERS FOR THE CHARMM GENERAL FORCE FIELD V. 4.3         *
+ TITLE> *                    FOR SMALL MOLECULE DRUG DESIGN                            *
+ TITLE> *  --------------------------------------------------------------------------  *
+ TITLE> *  2017/8: IF PROTEIN, NUCLEIC ACID AND CARBOHYDRATE TOPOLOGY AND PARAMETER FILES
+ TITLE> *  ARE NOT READ PRIOR TO THE CGENFF FILES "WARNING: ATOMS IN NBFIX ' errors will
+ TITLE> *  BE ENCOUNTERED.  THESE CAN BE PASSED BY SETTING BOMLEV ( -2) PRIOR TO READING
+ TITLE> *  THIS FILE. IN ADDITION, WHEN GENERATING AROMATIC HALOGENS (CL, BR, I) WITH
+ TITLE> *  PRE C41B/C42A VERSIONS OF CHARMM "MISSING PARAMETER" ERRORS WILL BE
+ TITLE> *  ENCOUNTERED THAT ALSO REQUIRE SETTING BOMLEV ( -2).
+ TITLE> *
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NH2  CLGR   -0.40000   3.88000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NH1  CLGR   -0.40000   3.88000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NR2  CLGR   -0.46000   3.42000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NR1  CLGR   -0.48000   3.75000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NY   CLGR   -0.48000   3.75000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NH3  CLGR   -3.60000   3.18000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NC2  CLGR   -1.05000   3.50000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX O    CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC   CLGR   -2.50000   2.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX S    CLGR   -0.38000   3.83000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX HS   CLGR   -0.20000   2.82000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NH2  BRGR   -0.30000   4.05000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NH1  BRGR   -0.30000   4.02000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX O    BRGR   -0.27000   3.52000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NR2  BRGR   -0.22000   3.61000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NR1  BRGR   -0.72000   3.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NY   BRGR   -0.72000   3.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NH3  BRGR   -3.65000   3.33000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NC2  BRGR   -1.10000   3.66000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC   BRGR   -1.25000   2.98000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D CLGR   -2.50000   2.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D BRGR   -1.25000   2.98000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D BRGR   -0.27000   3.52000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D BRGR   -0.27000   3.52000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OBL  CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NH3L CLGR   -3.60000   3.18000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OCL  CLGR   -2.50000   2.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OBL  BRGR   -0.27000   3.52000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NH3L BRGR   -3.65000   3.33000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OCL  BRGR   -1.25000   2.98000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN1  CLGR   -0.40000   3.88000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2  CLGR   -0.48000   3.75000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2U CLGR   -0.48000   3.75000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2G CLGR   -0.48000   3.75000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3  CLGR   -0.46000   3.42000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3A CLGR   -0.46000   3.42000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3G CLGR   -0.46000   3.42000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN4  CLGR   -0.46000   3.42000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX ON1  CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX ON1C CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN1  BRGR   -0.30000   4.05000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2  BRGR   -0.72000   3.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2U BRGR   -0.72000   3.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2G BRGR   -0.72000   3.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3  BRGR   -0.22000   3.61000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3A BRGR   -0.22000   3.61000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3G BRGR   -0.22000   3.61000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN4  BRGR   -0.22000   3.61000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX ON1  BRGR   -0.27000   3.52000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -2) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX ON1C BRGR   -0.27000   3.52000 DONT EXIST
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+  
+ CHARMM>     
+  
+ CHARMM>    open read card unit 10 name lig.rtf
+ OPNLGU> Unit already open. The old file will be closed first.
+ VCLOSE: Closing unit   10 with status "KEEP"
+ VOPEN> Attempting to open::lig.rtf::
+ OPNLGU> Unit 10 opened for READONLY access to /home/charmm-gui/data/www/157255616647/lig_prep/smallmols/1/lig.rtf
+  
+ CHARMM>    read  rtf card unit 10 append
+ MAINIO> Residue topology file being read from unit  10.
+ TITLE> * TOPOLOGIES GENERATED BY
+ TITLE> * CHARMM GENERAL FORCE FIELD (CGENFF) PROGRAM VERSION 1.0.0
+ TITLE> *
+  
+ CHARMM>     
+  
+ CHARMM>    open read card unit 20 name lig.prm
+ VOPEN> Attempting to open::lig.prm::
+ OPNLGU> Unit 20 opened for READONLY access to /home/charmm-gui/data/www/157255616647/lig_prep/smallmols/1/lig.prm
+  
+ CHARMM>    read para card unit 20 append
+
+          PARAMETER FILE BEING READ FROM UNIT 20
+ TITLE> * PARAMETERS GENERATED BY ANALOGY BY
+ TITLE> * CHARMM GENERAL FORCE FIELD (CGENFF) PROGRAM VERSION 1.0.0
+ TITLE> *
+ PARRDR> Error: Repeated ANGLE parameter (358771): CG32  CG32  CG2R
+ *** LEVEL -1 WARNING *** BOMLEV IS   -2
+ PARRDR> ERROR: Repeated dihedral term: INDEX  846 CODE  28698598     CG2R-CG32-CG32-CG32
+ PARRDR> ERROR: Repeated dihedral term: INDEX  841 CODE  28698576     CG2R-CG2R-CG32-CG32
+ PARRDR> ERROR: Repeated dihedral term: INDEX  262 CODE  12620518     HGA2-CG32-CG32-CG2R
+ *** LEVEL  0 WARNING *** BOMLEV IS   -2
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+  
+ CHARMM>     
+  
+ CHARMM>    open read card unit 10 name lig.crd
+ OPNLGU> Unit already open. The old file will be closed first.
+ VCLOSE: Closing unit   10 with status "KEEP"
+ VOPEN> Attempting to open::lig.crd::
+ OPNLGU> Unit 10 opened for READONLY access to /home/charmm-gui/data/www/157255616647/lig_prep/smallmols/1/lig.crd
+  
+ CHARMM>    read sequence coor card unit 10 resid
+ **** Warning ****  The following extraneous characters
+ were found while command processing in CHARMM
+ CARD
+ MAINIO> Sequence information being read from unit  10.
+ TITLE> * GENERATED BY CHARMM-GUI (HTTP://WWW.CHARMM-GUI.ORG)
+ TITLE> *
+
+          RESIDUE SEQUENCE --     1 RESIDUES
+          LIG 
+  
+ CHARMM>    generate LIG setup warn first none last none
+ NO PATCHING WILL BE DONE ON THE FIRST RESIDUE
+ NO PATCHING WILL BE DONE ON THE LAST  RESIDUE
+ GENPSF> Segment   1 has been generated. Its identifier is LIG.
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        1   Number of residues   =        1
+         Number of atoms         =       38   Number of groups     =        1
+         Number of bonds         =       40   Number of angles     =       67
+         Number of dihedrals     =       97   Number of impropers  =        1
+         Number of cross-terms   =        0
+         Number of HB acceptors  =        0   Number of HB donors  =        0
+         Number of NB exclusions =        0   Total charge =   -1.00000
+ QXFORM> Expanded format used.
+         More than 4 character atom type used.
+  
+ CHARMM>     
+  
+ CHARMM>    open read unit 10 card name lig.crd
+ OPNLGU> Unit already open. The old file will be closed first.
+ VCLOSE: Closing unit   10 with status "KEEP"
+ VOPEN> Attempting to open::lig.crd::
+ OPNLGU> Unit 10 opened for READONLY access to /home/charmm-gui/data/www/157255616647/lig_prep/smallmols/1/lig.crd
+  
+ CHARMM>    read coor unit 10 card resid
+          SPATIAL COORDINATES BEING READ FROM UNIT 10
+ TITLE> * GENERATED BY CHARMM-GUI (HTTP://WWW.CHARMM-GUI.ORG)
+ TITLE> *
+  
+ CHARMM>     
+  
+ CHARMM>    define LONEPAIR sele chem LPH end
+ SELRPN>      0 atoms have been selected out of     38
+  
+ CHARMM>    if ?nsel .gt. 0 coor shake sele LONEPAIR end
+ RDCMND substituted energy or value "?NSEL" to "0"
+ Comparing "0" and "0".
+ IF test evaluated as false.  Skipping command
+  
+ CHARMM>     
+  
+ CHARMM>    ic gene
+
+               Generation complete. New IC table entries:
+
+        N      I             J             K             L        R(I(J/K)) T(I(JK/KJ)) PHI   T(JKL)   R(KL)
+
+        1     1 C2          1 C6          1 *C1         1 H11        0.0000    0.00  180.00    0.00   0.0000
+        2     1 C6          1 C1          1 C2          1 C3         0.0000    0.00  180.00    0.00   0.0000
+        3     1 C3          1 C1          1 *C2         1 H12        0.0000    0.00  180.00    0.00   0.0000
+        4     1 C1          1 C2          1 C3          1 C4         0.0000    0.00  180.00    0.00   0.0000
+        5     1 C4          1 C2          1 *C3         1 H13        0.0000    0.00  180.00    0.00   0.0000
+        6     1 C2          1 C3          1 C4          1 C5         0.0000    0.00  180.00    0.00   0.0000
+        7     1 C5          1 C3          1 *C4         1 H4         0.0000    0.00  180.00    0.00   0.0000
+        8     1 C6          1 C4          1 *C5         1 N          0.0000    0.00  180.00    0.00   0.0000
+        9     1 C4          1 C5          1 N           1 CA         0.0000    0.00  180.00    0.00   0.0000
+       10     1 CA          1 C5          1 *N          1 H15        0.0000    0.00  180.00    0.00   0.0000
+       11     1 C5          1 N           1 CA          1 C7         0.0000    0.00  180.00    0.00   0.0000
+       12     1 C7          1 N           1 *CA         1 C8         0.0000    0.00  180.00    0.00   0.0000
+       13     1 N           1 CA          1 C8          1 O1         0.0000    0.00  180.00    0.00   0.0000
+       14     1 O1          1 CA          1 *C8         1 OXT        0.0000    0.00  180.00    0.00   0.0000
+       15     1 C6          1 CA          1 *C7         1 C9         0.0000    0.00  180.00    0.00   0.0000
+       16     1 CA          1 C7          1 C9          1 C10        0.0000    0.00  180.00    0.00   0.0000
+       17     1 C10         1 C7          1 *C9         1 H5         0.0000    0.00  120.00    0.00   0.0000
+       18     1 C10         1 C7          1 *C9         1 H6         0.0000    0.00 -120.00    0.00   0.0000
+       19     1 C7          1 C9          1 C10         1 C11        0.0000    0.00  180.00    0.00   0.0000
+       20     1 C11         1 C9          1 *C10        1 H7         0.0000    0.00  120.00    0.00   0.0000
+       21     1 C11         1 C9          1 *C10        1 H8         0.0000    0.00 -120.00    0.00   0.0000
+       22     1 C9          1 C10         1 C11         1 O2         0.0000    0.00  180.00    0.00   0.0000
+       23     1 O2          1 C10         1 *C11        1 H9         0.0000    0.00  120.00    0.00   0.0000
+       24     1 O2          1 C10         1 *C11        1 H10        0.0000    0.00 -120.00    0.00   0.0000
+       25     1 C10         1 C11         1 O2          1 C12        0.0000    0.00  180.00    0.00   0.0000
+       26     1 C11         1 O2          1 C12         1 C17        0.0000    0.00  180.00    0.00   0.0000
+       27     1 C17         1 O2          1 *C12        1 C13        0.0000    0.00  180.00    0.00   0.0000
+       28     1 O2          1 C12         1 C13         1 C14        0.0000    0.00  180.00    0.00   0.0000
+       29     1 C14         1 C12         1 *C13        1 H2         0.0000    0.00  180.00    0.00   0.0000
+       30     1 C12         1 C13         1 C14         1 C15        0.0000    0.00  180.00    0.00   0.0000
+       31     1 C15         1 C13         1 *C14        1 H1         0.0000    0.00  180.00    0.00   0.0000
+       32     1 C13         1 C14         1 C15         1 CL         0.0000    0.00  180.00    0.00   0.0000
+       33     1 CL          1 C14         1 *C15        1 C16        0.0000    0.00  180.00    0.00   0.0000
+       34     1 C16         1 C12         1 *C17        1 H3         0.0000    0.00  180.00    0.00   0.0000
+       35     1 C17         1 C15         1 *C16        1 H14        0.0000    0.00  180.00    0.00   0.0000
+  
+ CHARMM>    ic purge
+  
+ CHARMM>    ic fill
+  
+ CHARMM>     
+  
+ CHARMM>    print ic
+
+       INTERNAL COORDINATES
+ TITLE>  * IC BUILD
+ TITLE>  *
+
+     NUMBER OF INTERNAL COORDINATES :         35
+
+        N      I             J             K             L        R(I(J/K)) T(I(JK/KJ)) PHI   T(JKL)   R(KL)
+
+        1     1 C2          1 C6          1 *C1         1 H11        1.4289  116.39 -179.99  121.81   1.0200
+        2     1 C6          1 C1          1 C2          1 C3         1.4292  116.39    3.50  121.37   1.4338
+        3     1 C3          1 C1          1 *C2         1 H12        1.4338  121.37  179.99  119.32   1.0200
+        4     1 C1          1 C2          1 C3          1 C4         1.4289  121.37   -2.41  121.56   1.4288
+        5     1 C4          1 C2          1 *C3         1 H13        1.4288  121.56 -179.99  119.22   1.0200
+        6     1 C2          1 C3          1 C4          1 C5         1.4338  121.56   -1.84  116.33   1.4297
+        7     1 C5          1 C3          1 *C4         1 H4         1.4297  116.33 -180.00  121.84   1.0200
+        8     1 C6          1 C4          1 *C5         1 N          1.4072  121.98 -175.57  129.27   1.3434
+        9     1 C4          1 C5          1 N           1 CA         1.4297  129.27  177.58  108.05   1.3511
+       10     1 CA          1 C5          1 *N          1 H15        1.3511  108.05 -180.00  125.97   0.9700
+       11     1 C5          1 N           1 CA          1 C7         1.3434  108.05    0.08  110.52   1.3986
+       12     1 C7          1 N           1 *CA         1 C8         1.3986  110.52 -180.00  124.74   1.3900
+       13     1 N           1 CA          1 C8          1 O1         1.3511  124.74    0.00  120.00   1.3500
+       14     1 O1          1 CA          1 *C8         1 OXT        1.3500  120.00  180.00  120.00   1.2500
+       15     1 C6          1 CA          1 *C7         1 C9         1.3895  105.04 -180.00  127.48   1.4600
+       16     1 CA          1 C7          1 C9          1 C10        1.3986  127.48  -90.00  109.47   1.5300
+       17     1 C10         1 C7          1 *C9         1 H5         1.5300  109.47  120.00  109.47   1.0900
+       18     1 C10         1 C7          1 *C9         1 H6         1.5300  109.47 -120.00  109.47   1.0900
+       19     1 C7          1 C9          1 C10         1 C11        1.4600  109.47 -180.00  109.47   1.5300
+       20     1 C11         1 C9          1 *C10        1 H7         1.5300  109.47 -120.00  109.47   1.0900
+       21     1 C11         1 C9          1 *C10        1 H8         1.5300  109.47  120.00  109.48   1.0900
+       22     1 C9          1 C10         1 C11         1 O2         1.5300  109.47 -180.00  109.47   1.4200
+       23     1 O2          1 C10         1 *C11        1 H9         1.4200  109.47  120.00  109.47   1.0901
+       24     1 O2          1 C10         1 *C11        1 H10        1.4200  109.47 -120.01  109.47   1.0900
+       25     1 C10         1 C11         1 O2          1 C12        1.5300  109.47 -180.00  109.48   1.3500
+       26     1 C11         1 O2          1 C12         1 C17        1.4200  109.48   -0.00  120.00   1.3900
+       27     1 C17         1 O2          1 *C12        1 C13        1.3900  120.00 -180.00  120.00   1.3900
+       28     1 O2          1 C12         1 C13         1 C14        1.3500  120.00  180.00  120.00   1.3900
+       29     1 C14         1 C12         1 *C13        1 H2         1.3900  120.00 -180.00  120.00   1.0200
+       30     1 C12         1 C13         1 C14         1 C15        1.3900  120.00   -0.00  120.00   1.3899
+       31     1 C15         1 C13         1 *C14        1 H1         1.3899  120.00 -179.99  120.00   1.0200
+       32     1 C13         1 C14         1 C15         1 CL         1.3900  120.00 -180.00  120.00   1.6870
+       33     1 CL          1 C14         1 *C15        1 C16        1.6870  120.00  180.00  120.00   1.3900
+       34     1 C16         1 C12         1 *C17        1 H3         1.3900  119.99  180.00  120.00   1.0200
+       35     1 C17         1 C15         1 *C16        1 H14        1.3900  120.00 -180.00  120.00   1.0200
+  
+ VCLOSE: Closing unit   10 with status "KEEP"
+ VCLOSE: Closing unit   20 with status "KEEP"
+$$$$$$  New timer profile $$$$$
+ Total time                      0.27 Other:            0.00
+
+                    NORMAL TERMINATION BY END OF FILE
+                    MOST SEVERE WARNING WAS AT LEVEL -1
+
+                    $$$$$ JOB ACCOUNTING INFORMATION $$$$$
+                     ELAPSED TIME:     0.27  SECONDS 
+                         CPU TIME:     0.27  SECONDS 

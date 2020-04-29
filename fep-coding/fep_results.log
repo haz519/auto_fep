@@ -1,0 +1,156 @@
+Job "solvator" (-1) encountered an exception on step -1:
+Traceback (most recent call last):
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 169, in run
+    self.init_system(test_case)
+  File "/Users/hanzhang/Desktop/fep-coding/FEPBrowserProcess.py", line 49, in init_system
+    for lig_name in self.ligands.keys():
+AttributeError: 'str' object has no attribute 'keys'
+
+Job "solvator" (-1) encountered an exception on step -1:
+Traceback (most recent call last):
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 169, in run
+    self.init_system(test_case)
+  File "/Users/hanzhang/Desktop/fep-coding/FEPBrowserProcess.py", line 49, in init_system
+    for lig_name in self.ligands.keys():
+AttributeError: 'str' object has no attribute 'keys'
+
+Job "solvator" (-1) encountered an exception on step -1:
+Traceback (most recent call last):
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 169, in run
+    self.init_system(fep_case)
+  File "/Users/hanzhang/Desktop/fep-coding/FEPBrowserProcess.py", line 49, in init_system
+    for lig_name in self.ligands.keys():
+AttributeError: 'str' object has no attribute 'keys'
+
+Job "solvator" (-1) encountered an exception on step -1:
+Traceback (most recent call last):
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 169, in run
+    self.init_system(fep_case)
+  File "/Users/hanzhang/Desktop/fep-coding/FEPBrowserProcess.py", line 53, in init_system
+    self.go_next(fep_case['steps'][0]['wait_text'])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 112, in go_next
+    self.wait_text_multi([fep_text, self.CHARMM_ERROR])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 239, in wait_text_multi
+    if self.browser.is_text_present(text, wait_time):
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/splinter-0.13.0-py3.7.egg/splinter/driver/webdriver/__init__.py", line 410, in is_text_present
+    self.driver.find_element_by_tag_name("body").text.index(text)
+AttributeError: 'NoneType' object has no attribute 'text'
+
+Job "solvator" (-1) encountered an exception on step -1:
+Traceback (most recent call last):
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 169, in run
+    self.init_system(fep_case)
+  File "/Users/hanzhang/Desktop/fep-coding/FEPBrowserProcess.py", line 53, in init_system
+    self.go_next(fep_case['steps'][0]['wait_text'])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 112, in go_next
+    self.wait_text_multi([fep_text, self.CHARMM_ERROR])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 239, in wait_text_multi
+    if self.browser.is_text_present(text, wait_time):
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/splinter-0.13.0-py3.7.egg/splinter/driver/webdriver/__init__.py", line 410, in is_text_present
+    self.driver.find_element_by_tag_name("body").text.index(text)
+AttributeError: 'NoneType' object has no attribute 'text'
+
+Job "solvator" (-1) encountered an exception on step -1:
+Traceback (most recent call last):
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 169, in run
+    self.init_system(fep_case)
+  File "/Users/hanzhang/Desktop/fep-coding/FEPBrowserProcess.py", line 54, in init_system
+    self.go_next(fep_case['steps'][0]['wait_text'])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 112, in go_next
+    self.wait_text_multi([fep_text, self.CHARMM_ERROR])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 239, in wait_text_multi
+    if self.browser.is_text_present(text, wait_time):
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/splinter-0.13.0-py3.7.egg/splinter/driver/webdriver/__init__.py", line 410, in is_text_present
+    self.driver.find_element_by_tag_name("body").text.index(text)
+AttributeError: 'NoneType' object has no attribute 'text'
+
+Job "solvator" (-1) encountered an exception on step -1:
+Traceback (most recent call last):
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 169, in run
+    self.init_system(fep_case)
+  File "/Users/hanzhang/Desktop/fep-coding/FEPBrowserProcess.py", line 54, in init_system
+    self.go_next(fep_case['steps'][0]['wait_text'])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 112, in go_next
+    self.wait_text_multi([fep_text, self.CHARMM_ERROR])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 239, in wait_text_multi
+    if self.browser.is_text_present(text, wait_time):
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/splinter-0.13.0-py3.7.egg/splinter/driver/webdriver/__init__.py", line 410, in is_text_present
+    self.driver.find_element_by_tag_name("body").text.index(text)
+AttributeError: 'NoneType' object has no attribute 'text'
+
+Job "solvator" (-1) encountered an exception on step -1:
+Traceback (most recent call last):
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 169, in run
+    self.init_system(fep_case)
+  File "/Users/hanzhang/Desktop/fep-coding/FEPBrowserProcess.py", line 54, in init_system
+    self.go_next(fep_case['steps'][0]['wait_text'])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 112, in go_next
+    self.wait_text_multi([fep_text, self.CHARMM_ERROR])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 239, in wait_text_multi
+    if self.browser.is_text_present(text, wait_time):
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/splinter-0.13.0-py3.7.egg/splinter/driver/webdriver/__init__.py", line 410, in is_text_present
+    self.driver.find_element_by_tag_name("body").text.index(text)
+AttributeError: 'NoneType' object has no attribute 'text'
+
+Job "solvator" (-1) encountered an exception on step -1:
+Traceback (most recent call last):
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 169, in run
+    self.init_system(fep_case)
+  File "/Users/hanzhang/Desktop/fep-coding/FEPBrowserProcess.py", line 54, in init_system
+    self.go_next(fep_case['steps'][0]['wait_text'])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 112, in go_next
+    self.wait_text_multi([fep_text, self.CHARMM_ERROR])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 239, in wait_text_multi
+    if self.browser.is_text_present(text, wait_time):
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/splinter-0.13.0-py3.7.egg/splinter/driver/webdriver/__init__.py", line 410, in is_text_present
+    self.driver.find_element_by_tag_name("body").text.index(text)
+AttributeError: 'NoneType' object has no attribute 'text'
+
+Job "solvator" (-1) encountered an exception on step -1:
+Traceback (most recent call last):
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 169, in run
+    self.init_system(fep_case)
+  File "/Users/hanzhang/Desktop/fep-coding/FEPBrowserProcess.py", line 54, in init_system
+    self.go_next(fep_case['steps'][0]['wait_text'])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 112, in go_next
+    self.wait_text_multi([fep_text, self.CHARMM_ERROR])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 239, in wait_text_multi
+    if self.browser.is_text_present(text, wait_time):
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/splinter-0.13.0-py3.7.egg/splinter/driver/webdriver/__init__.py", line 410, in is_text_present
+    self.driver.find_element_by_tag_name("body").text.index(text)
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 76, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)['value']
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (Session info: chrome=81.0.4044.122)
+
+
+Job "solvator" (-1) encountered an exception on step -1:
+Traceback (most recent call last):
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 169, in run
+    self.init_system(fep_case)
+  File "/Users/hanzhang/Desktop/fep-coding/FEPBrowserProcess.py", line 54, in init_system
+    self.go_next(fep_case['steps'][0]['wait_text'])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 112, in go_next
+    self.wait_text_multi([fep_text, self.CHARMM_ERROR])
+  File "/Users/hanzhang/Desktop/fep-coding/CGUIBrowserProcess.py", line 239, in wait_text_multi
+    if self.browser.is_text_present(text, wait_time):
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/splinter-0.13.0-py3.7.egg/splinter/driver/webdriver/__init__.py", line 410, in is_text_present
+    self.driver.find_element_by_tag_name("body").text.index(text)
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 76, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)['value']
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/hanzhang/opt/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (Session info: chrome=81.0.4044.122)
+
+

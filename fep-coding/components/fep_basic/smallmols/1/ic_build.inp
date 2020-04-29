@@ -1,0 +1,32 @@
+* IC BUILD
+*
+
+BOMLEV -2
+
+open read card unit 10 name ../../../toppar/top_all36_cgenff.rtf
+read  rtf card unit 10
+
+open read card unit 10 name ../../../toppar/par_all36_cgenff.prm
+read para card unit 10
+
+open read card unit 10 name lig.rtf
+read  rtf card unit 10 append
+
+open read card unit 20 name lig.prm
+read para card unit 20 append
+
+open read card unit 10 name lig.crd
+read sequence coor card unit 10 resid
+generate LIG setup warn first none last none
+
+open read unit 10 card name lig.crd
+read coor unit 10 card resid
+
+define LONEPAIR sele chem LPH end
+if ?nsel .gt. 0 coor shake sele LONEPAIR end
+
+ic gene
+ic purge
+ic fill
+
+print ic
